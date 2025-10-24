@@ -35,7 +35,7 @@ public class CameraBlockEntityRenderer implements BlockEntityRenderer<CameraBloc
         }
         matrices.popPose();
 
-        Camera camera = Minecraft.getInstance().gameRenderer.getMainCamera();
-        camera.getPosition()
+//        Camera camera = Minecraft.getInstance().gameRenderer.getMainCamera();
+//        camera.getPosition()
     }
 }
