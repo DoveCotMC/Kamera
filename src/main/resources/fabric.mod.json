@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "kamera",
+  "version": "${version}",
+  "name": "Kamera",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/kamera/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "team.dovecotmc.kamera.client.KameraDataGenerator"
+    ],
+    "client": [
+      "team.dovecotmc.kamera.client.KameraClient"
+    ],
+    "main": [
+      "team.dovecotmc.kamera.Kamera"
+    ]
+  },
+  "mixins": [
+    "kamera.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
